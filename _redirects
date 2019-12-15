@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://innsynsbegjaering.netlify.com/* http://xn--innsynsbegjring-7lb.no/:splat 301!
