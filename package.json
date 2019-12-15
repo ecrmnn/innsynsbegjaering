@@ -1,0 +1,40 @@
+{
+  "name": "innsynsbegjaering.no",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "nvm-guard && nuxt",
+    "build": "nvm-guard && nuxt build",
+    "start": "nvm-guard && nuxt start",
+    "generate": "nvm-guard && nuxt generate",
+    "eslint": "nvm-guard && eslint --fix --ext=vue .",
+    "deploy": "npm run eslint && npm run generate"
+  },
+  "homepage": "https://innsynsbegjæring.no",
+  "author": {
+    "name": "Daniel Eckermann",
+    "email": "danieleckermann@gmail.com",
+    "url": "https://danieleckermann.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecrmnn/innsynsbegjaering.no"
+  },
+  "bugs": {
+    "url": "https://github.com/ecrmnn/innsynsbegjaering.no/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^1.2.0",
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "clipboard": "^2.0.4",
+    "nuxt": "^2.10.2",
+    "sweetalert2": "^9.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "nvm-guard": "^1.0.4"
+  }
+}
