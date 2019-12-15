@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center bg-gray-800 py-10">
+  <div class="text-center bg-gray-800 px-3 py-10">
     <div class="text-gray-400 pb-3">
       Bygget med ❤️ og ☕️ av <a href="https://github.com/ecrmnn" class="text-blue-400 underline">ecrmnn</a>.
       <a href="https://github.com/ecrmnn/innsynsbegjaering" class="text-blue-400 underline">Åpen kildekode</a>.

@@ -129,7 +129,7 @@
       </div>
     </div>
 
-    <div class="flex flex-wrap justify-center bg-gray-200 py-10 lg:py-20">
+    <div class="flex flex-wrap justify-center bg-gray-200 py-10 px-3 lg:py-20">
       <div class="w-full text-center">
         <h3 class="text-3xl font-bold">3. Kopier og send generert innsynsbegjæring</h3>
 
@@ -326,7 +326,7 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-center bg-gray-200 pb-10 lg:pb-24">
+    <div class="flex justify-center bg-gray-200 px-3 pb-10 lg:pb-24">
       <div class="w-full text-center">
         <button data-clipboard-target="#gdpr-request"
           @click="copySuccessful"
